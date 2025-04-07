@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services - Sparkle & Shine</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body id="services-page">
+
+    <header>
+        <div class="logo">
+            <a href="index.html"><img src="Sparkle & Shine.png" alt="Sparkle & Shine Logo"></a>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section class="services">
+        <h2>Available Services</h2>
+        <div class="service1">
+            <h3>Exterior Cleaning</h3>
+            <p>Foam pre-soak, hand wash, tire & rim cleaning, window & mirror wipe.</p>
+        </div>
+    
+        <div class="service2">
+            <h3>Interior Cleaning</h3>
+            <p>Vacuum mats, carpet & seats, detailed dashboard & console cleaning, cupholder, vent & door cleaning, window & mirror wipe.</p>
+        </div>
+    
+        <div class="service3">
+            <h3>Complete Interior & Exterior Cleaning</h3>
+            <p>Everything included in both services.</p>
+        </div>
+
+        <h3>Available Add-Ons</h3>
+        <ul>
+            <li>Carpet/Non-Leather Seat Extraction ($15)</li>
+            <li>Wax Spray ($10)</li>
+            <li>Tire Shine ($5)</li>
+            <li>Air Freshener ($5)</li>
+            <li>Car Charm ($10)</li>
+        </ul>
+    </section>    
+
+    <section class="calculator-section">
+        <h2>Get an Estimated Price</h2>
+        <form id="quoteForm">
+            <label for="service">Select a Service:</label>
+            <select id="service">
+                <option value="" disabled selected>Choose a service</option>
+                <option value="exterior">Exterior Cleaning</option>
+                <option value="interior">Interior Cleaning</option>
+                <option value="complete">Complete Exterior and Interior Cleaning</option>
+            </select>
+    
+            <label for="size">Select Car Size:</label>
+            <select id="size">
+                <option value="" disabled selected>Choose your car size</option>
+                <option value="small">Small Vehicle</option>
+                <option value="medium">Medium Vehicle</option>
+                <option value="large">Large Vehicle</option>
+            </select>
+    
+            <button type="button" onclick="calculateQuote()">Get the Quote</button>
+        </form>
+    
+        <p id="quoteResult"></p>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>
