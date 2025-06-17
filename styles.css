@@ -348,7 +348,7 @@ button:hover {
     font-size: 1.2em;
     line-height: 1.6;
     margin-bottom: 20px;
-    text-align: justify;
+    text-align: center;
     color: black;
 }
 
@@ -363,7 +363,7 @@ a:hover {
 }
 
 /* Customer Testimonials */
-#about h2 + p {
+#testimonials p {
     font-style: italic;
     text-align: center;
 }
