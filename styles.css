@@ -76,7 +76,7 @@ nav ul li a:hover {
 .cta-container {
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 20px;
     align-items: center;
     margin-top: 20px;
 }
