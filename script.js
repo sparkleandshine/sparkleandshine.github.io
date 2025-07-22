@@ -7,8 +7,8 @@ function calculateQuote() {
     // Define base prices for the services
     const prices = {
         exterior: { small: 30, medium: 40, large: 50 },
-        interior: { small: 50, medium: 60, large: 80 },
-        complete: { small: 90, medium: 120, large: 180 }
+        interior: { small: 60, medium: 80, large: 110 },
+        complete: { small: 85, medium: 110, large: 150 }
     };
 
     // Check if the user selected both service and car size
